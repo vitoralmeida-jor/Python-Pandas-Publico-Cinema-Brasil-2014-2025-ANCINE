@@ -41,7 +41,7 @@ saida = os.path.join(caminho, "bilheteria_brasil.csv")
 # 'encoding=utf-8-sig' garante que caracteres especiais (acentos) sejam lidos corretamente no Excel.
 df_final.to_csv(saida, index=False, encoding='utf-8-sig')
 
-print("✅ Arquivo salvo em:", saida)
+print("Arquivo salvo em:", saida)
 
 # Exibe a quantidade total de linhas (neste caso, mais de 33 milhões).
 total_linhas = len(df_bilheteria)
