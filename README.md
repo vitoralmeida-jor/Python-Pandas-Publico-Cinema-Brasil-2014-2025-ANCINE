@@ -2,6 +2,7 @@
 Utiliza a base de dados da ANCINE com todos os registros de públicos nas salas de cinema entre 2014 e 2025.
 O público mais recorrente nas salas de cinema no Brasil é de zero pessoas. Abaixo tem a lista completa.
 
+A base de dados da ANCINE como o "Relatório de bilheteria diária de obras informadas pelas exibidoras" pode ser acessado [clicando aqui.](https://dados.gov.br/dados/conjuntos-dados/relatorio-de-bilheteria-diaria-de-obras-informadas-pelas-exibidoras)
 
 ````python
 import pandas as pd # Biblioteca principal para manipulação e análise de dados.
